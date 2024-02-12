@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+body{
+    font-family: "Roboto", sans-serif;
+}
+
 header{
     background-color: #182c61;
     color: #ffffff;
@@ -162,7 +166,7 @@ form button:hover{
 
 input:focus,
  textarea:focus{
-    outline-color: #182c61;
+    outline-color: #182c75;
 }
 
 .social-links img {
@@ -176,6 +180,10 @@ input:focus,
 
 .social-links li a {
     text-decoration: none;
+}
+
+h2{
+    padding-bottom: 40px;
 }
 
 footer{
